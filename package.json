@@ -1,0 +1,15 @@
+{
+  "name": "co2mini-rec",
+  "version": "0.1.0",
+  "description": "CO2-mini Recorder",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "nobmurakita",
+  "license": "MIT",
+  "dependencies": {
+    "node-co2-monitor": "github:nobmurakita/node-co2-monitor#upgrade-node-usb",
+    "node-schedule": "^2.1.1"
+  }
+}
